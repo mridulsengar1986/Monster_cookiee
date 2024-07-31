@@ -1,0 +1,131 @@
+/* *{
+    box-sizing: border-box;
+} */
+html,body{
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    color: #222;
+}
+
+/* Typography */
+h1{
+    font-size:48px;
+    font-weight: 900;
+    line-height: 60px;
+}
+h2{
+   margin-top: 0;
+}
+h3{
+    font-size:20px;
+    font-weight: 700;
+    line-height: 30px; 
+}
+p{
+    font-size:18;
+    line-height: 28px;
+}
+ul{
+    list-style: none;
+    padding: 5px 0 0 0;
+}
+li{
+    padding:15px;
+    border-radius:5px;
+    margin-bottom:12px;
+    font-weight:500;
+    font-size: 22px;
+}
+.li-green{background-color: green;}
+.li-yellow{background-color: yellow;}
+.li-blue{background-color: blue;}
+.li-pink{background-color: pink;}
+
+/* layout */
+img{
+    width:100%;
+}
+main{
+    width:400px;
+    margin:0 auto;
+    background-color:beige;
+   
+}
+.modal{
+    display:none;
+    background-color: black;
+    color:white;
+    width:350px;
+    height:420px;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 2px #666;
+    position: fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    Right:0;
+    margin:auto;
+}
+.cross-btn-container{
+    text-align: right;
+     margin:9px;
+}
+.cross-sign{
+    font-size:22px;
+    font-weight:bold;
+    background-color: transparent;
+    border:1px solid transparent;
+    color:whitesmoke;
+}
+.cross-sign:hover,
+.cross-sign:active{
+    color: red;
+    cursor: pointer;
+}
+/* psudo code down we used */
+.cross-sign:disabled{
+    color:whitesmoke;
+    opacity: 0.2;
+    cursor:not-allowed;
+}
+.modal-txt{
+    margin-bottom: 0;
+    height: 140px;
+    line-height: 23px;
+   
+}
+.modal-inner{
+    width:290px;
+    margin:0 auto;
+}
+
+input{
+    margin-top: 10px; 
+    border: 1px solid #212529;
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+    }
+.modal-btn{
+    padding:10px 24px;
+    cursor:pointer;
+} 
+.modal-choice-btns{
+    display:flex;
+    justify-content: center;
+    margin-top:10px;
+    margin:8px 16px;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+.idiot-gif{
+    width: 95%;
+    margin: 0 auto;
+}
+.idiot-gif img{
+    box-shadow: 1px 1px 3px #999;
+    border-radius: 5px;
+}
